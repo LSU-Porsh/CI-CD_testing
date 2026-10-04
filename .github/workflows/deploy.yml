@@ -17,7 +17,7 @@ permissions:
 jobs:
   deploy:
     # Environment: Executes inside a clean, hosted Ubuntu Linux virtual machine
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       # Step 1: Download repository source code onto the runner
