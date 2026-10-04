@@ -22,7 +22,7 @@ jobs:
       # uses: Pulls a pre-built reusable Action from GitHub Marketplace
       # actions/checkout@v4 clones/downloads your repository files onto the runner machine
       - name: Checkout Code
-        uses: actions/checkout@v
+        uses: actions/checkout@v5
 
       # run: Executes standard shell commands on the virtual machine runner
       - name: Verify HTML File Exists
