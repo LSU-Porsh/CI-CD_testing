@@ -35,4 +35,6 @@ jobs:
 
       - name: Basic Syntax & Structure Check
         run: |
-          grep -q "<html>" index.html && echo "HTML validated." || (echo "Invalid HTML structure" && exit 1)
+         - name: Basic Syntax & Structure Check
+        run: |
+          grep -iq "<html" index.html && echo "HTML validated." || (echo "Invalid HTML structure" && exit 1)
